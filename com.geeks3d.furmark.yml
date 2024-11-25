@@ -44,8 +44,8 @@ modules:
 
       - type: archive
         only-arches: [aarch64]
-        url: https://gpumagick.com/downloads/files/2024/furmark2/FurMark_2.4.1.0_rpi64.7z
-        sha256: ef5fbec8ae29ef42dfaae958396db6311775661a2617448e00dd8131279cb215
+        url: https://gpumagick.com/downloads/files/2024/furmark2/FurMark_2.4.0.0_arm64.7z
+        sha256: 6e7a584f279a57a97ae1033fcf2c37543c8a79d40fc5e6df6b9d679f5a7c03da
         dest: furmark
 
       - type: file
