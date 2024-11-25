@@ -24,6 +24,7 @@
       <li>Stress testing graphic cards to test the reliability of the device or just for fun</li>
       <li>Publishing benchmarking scores</li>
     </ul>
+    <p>The ARM version is still at 2.4.0.0</p>
   </description>
 
   <url type="homepage">https://geeks3d.com/furmark/</url>
@@ -68,6 +69,40 @@
   </content_rating>
   
   <releases>
+    <release version="2.4.1.0" date="2024-10-16" type="stable">
+      <description>
+        <ul>
+          <li>Knot(VK) / furmark-knot-vk demo: fixed artifact scanner false detections on NVIDIA GPUs.</li>
+          <li>fixed a buffer overflow in the Vulkan renderer during the drawing of some meshes (like the knot mesh).</li>
+          <li>fixed the rendering color of the Knot(VK) demo.</li>
+          <li>updated with GPU Shark2 2.4.1.0</li>
+          <li>updated with GeeXLab 0.60.3 libs.</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="2.4.0.0" date="2024-10-04" type="stable">
+      <description>
+        <ul>
+          <li>fixed a bug in the Knot VK demo: wrong dynamic background was used in benchmark Preset mode.</li>
+          <li>updated GUI (Graphical User Interface): new About box and Settings box.</li>
+          <li>updated the procedure for submitting a score.</li>
+          <li>added monitoring support (usage and power) of recent Intel integrated GPUs like the UHD 770, MTL Arc or LL Arc Graphics 140V/130V.</li>
+          <li>GUI: now temperature and usage sensors of the first monitorable GPU are displayed in the monitoring graph.</li>
+          <li>added screen resolutions: 1280x800 (WXGA), 1280x1024 (SXGA), 1366x768 (HD), 1440x900 (WXGA+), 1536x864, 1600x900 (HD+), 1600x1200 (UXGA), 1680x1050 (WSXGA+), 2048x1152 (QWXGA), 2048x1536 (QXGA) and 2560x1600 (WQXGA).</li>
+          <li>only one instance of furmark.exe is allowed in benchmark mode with Presets.</li>
+          <li>bugfix: in some rare situations (extremely low framerates), the score progress bar went above 100%.</li>
+          <li>removed warning message about the difference between current framerate and average framerate.</li>
+          <li>improved GPU monitoring when several Arc GPUs are present.</li>
+          <li>added VRAM temperature in GPU monitoring section when supported (Intel Arc, AMD Radeon).</li>
+          <li>fixed fan speed display in GPU monitoring section for Intel Arc GPUs.</li>
+          <li>updated with GPU Shark2 2.4.0.0</li>
+          <li>updated with GPU-Z 2.60</li>
+          <li>updated with GeeXLab 0.60.0</li>  
+        </ul>
+      </description>
+    </release>
+
     <release version="2.3.0.0" date="2024-05-06" type="stable">
       <description>
         <ul>
