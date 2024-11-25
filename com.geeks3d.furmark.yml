@@ -1,7 +1,7 @@
 id: com.geeks3d.furmark
 
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 
 finish-args:
@@ -13,7 +13,6 @@ finish-args:
 command: FurMark_GUI
 
 modules:
-
   - name: libglu
     buildsystem: meson
     sources:
@@ -21,13 +20,27 @@ modules:
         url: https://gitlab.freedesktop.org/mesa/glu
         tag: glu-9.0.3
 
+  - name: spoof-caja
+    buildsystem: simple
+    build-commands:
+      - install -Dm755 redirect.sh /app/bin/caja
+
+    sources:
+      - type: script
+        dest-filename: redirect.sh
+        commands:
+          - xdg-open $1
+
   - name: furmark
     buildsystem: simple
     build-commands:
       - mkdir -p /app/bin
       - cp -r furmark /app/furmark/
-      - chmod +x /app/furmark/FurMark_GUI
       - ln -s /app/furmark/FurMark_GUI /app/bin/FurMark_GUI
+      - ln -s /app/furmark/furmark /app/bin/furmark
+      - touch $XDG_DATA_HOME/gui_log.txt $XDG_DATA_HOME/backend_log.txt
+      - ln -s $XDG_DATA_HOME/gui_log.txt /app/furmark/_geexlab_log.txt
+      - ln -s $XDG_DATA_HOME/backend_log.txt /app/furmark/_furmark_log.txt
       - ffmpeg -i furmark-icon.png -vf scale=512:512 furmark-icon-scaled.png
       - install -Dm644 furmark-icon-scaled.png ${FLATPAK_DEST}/share/icons/hicolor/512x512/apps/${FLATPAK_ID}.png # Install the app icon
       - install -Dm644 com.geeks3d.furmark.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop # Install the app menu entry .desktop file
@@ -36,14 +49,14 @@ modules:
     sources:
       - type: archive
         only-arches: [x86_64]
-        url: https://gpumagick.com/downloads/files/2024/furmark2/FurMark_2.3.0.0_linux64.zip
-        sha256: 38a62d3ad41c99b45d36d8a9fdb235f85b5ac7012db39339edcf0f211b38699a
+        url: https://gpumagick.com/downloads/files/2024/furmark2/FurMark_2.4.1.0_linux64.7z
+        sha256: 0cbfba96668add8c1dc495de51be56fd6db5ef2f2c36ee919ab1200854c2d79c
         dest: furmark
 
       - type: archive
         only-arches: [aarch64]
-        url: https://gpumagick.com/downloads/files/2024/furmark2/FurMark_2.3.0.0_rpi64.zip
-        sha256: ef5fbec8ae29ef42dfaae958396db6311775661a2617448e00dd8131279cb215
+        url: https://gpumagick.com/downloads/files/2024/furmark2/FurMark_2.4.0.0_arm64.7z
+        sha256: 6e7a584f279a57a97ae1033fcf2c37543c8a79d40fc5e6df6b9d679f5a7c03da
         dest: furmark
 
       - type: file
