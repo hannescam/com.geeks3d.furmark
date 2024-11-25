@@ -20,6 +20,17 @@ modules:
         url: https://gitlab.freedesktop.org/mesa/glu
         tag: glu-9.0.3
 
+  - name: spoof-caja
+    buildsystem: simple
+    build-commands:
+      - install -Dm755 redirect.sh /app/bin/caja
+
+    sources:
+      - type: script
+        dest-filename: redirect.sh
+        commands:
+          - xdg-open $1
+
   - name: furmark
     buildsystem: simple
     build-commands:
