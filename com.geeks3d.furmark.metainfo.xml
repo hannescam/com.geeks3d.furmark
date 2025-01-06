@@ -16,7 +16,7 @@
   </recommends>
   
   <description>
-    <p>OpenGL and Vulkan stress-test and benchmark for GPUs, that can upload the results to a online database</p>
+    <p>OpenGL and Vulkan stress-test and benchmark for GPUs, that can upload the results to an online database</p>
     <p>WARNING: This Flatpak wrapper is not affiliated by Geeks3D</p>
     <p>Features</p>
     <ul>
