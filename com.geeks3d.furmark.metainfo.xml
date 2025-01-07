@@ -68,7 +68,42 @@
     <content_attribute id="money-purchasing">mild</content_attribute>
   </content_rating>
   
-  <releases>
+  <releases>    
+    <release version="2.5.0.0" date="2024-12-30" type="stable">
+      <description>
+        <ul>
+          <li>added commercial names:</li>
+          <li>  . Intel Arc B580 Limited Edition</li>
+          <li>  . Sparkle Arc B580 Titan OC</li>
+          <li>  . ASRock Arc B580 Steel Legend</li>
+          <li>added support of Intel Arc B580 and Arc B570 Battlemage GPUs</li>
+          <li>presets buttons (GUI) are only enabled if desktop resolution matches preset resolution.</li> 
+          <li>added GPU monitoring support using NVIDIA SMI and DRM</li>
+          <li>update GPU data logging (with --log-gpu-data). New command line options: --log-gpu-index and --log-gpu-data-filename</li>
+          <li>added VRAM temperature for NVIDIA GPUs</li>
+          <li>updated with GPU-Z 2.61</li>
+          <li>updated with GPU Shark2 2.5.0.0</li>
+          <li>updated with GeeXLab 0.61.0 libs.</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="2.4.3.0" date="2024-11-06" type="stable">
+      <description>
+        <ul>
+          <li>all stress tests: fixed shaders to match performance of FurMark 2.3 in benchmark Presets.</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="2.4.2.0" date="2024-11-05" type="stable">
+      <description>
+        <ul>
+          <li>FurMark(VK) demo: fixed artifact scanner false detections on NVIDIA GPUs.</li>
+        </ul>
+      </description>
+    </release>
+
     <release version="2.4.1.0" date="2024-10-16" type="stable">
       <description>
         <ul>
