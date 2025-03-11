@@ -49,8 +49,8 @@ modules:
     sources:
       - type: archive
         only-arches: [x86_64]
-        url: https://gpumagick.com/downloads/files/2024/furmark2/FurMark_2.5.0.0_linux64.7z
-        sha256: 7ff17d7d35b7183b89b053f8fec2874a771ddf3efcc2c62483ab672f234739e9
+        url: https://geeks3d.com/downloads/2025/fm2/FurMark_2.6.0.0_linux64.7z
+        sha256: d7c88d080c80f71bd7ff7a03de5b3b9fba97419885ab8ea46f26d8ef0fc7f18f
         dest: furmark
 
       - type: archive
