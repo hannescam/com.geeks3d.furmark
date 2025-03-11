@@ -18,6 +18,7 @@
   <description>
     <p>OpenGL and Vulkan stress-test and benchmark for GPUs, that can upload the results to an online database</p>
     <p>WARNING: This Flatpak wrapper is not affiliated by Geeks3D</p>
+    <p>WARNING:	Could damage your device if not	adequately cooled</p>
     <p>Features</p>
     <ul>
       <li>Benchmarking graphic cards</li>
@@ -30,21 +31,29 @@
   <url type="homepage">https://geeks3d.com/furmark/</url>
   <url type="help">https://www.geeks3d.com/forums/index.php</url>
   <url type="donation">https://www.geeks3d.com/donate/</url>
-  
+
   <launchable type="desktop-id">com.geeks3d.furmark.desktop</launchable>
 
   <screenshots>
     <screenshot type="default">
       <caption>Main window for starting stress-tests and benchmarks</caption>
-      <image>https://hannes.crafti-servi.com/furmark/menu.png</image>
+      <image>https://hannes.crafti-servi.com/furmark-screenshots/main-window.png</image>
     </screenshot>
     <screenshot>
-      <caption>Stress testing window that uses a furry donut to load the GPU</caption>
-      <image>https://hannes.crafti-servi.com/furmark/stress-test.png</image>
+      <caption>Benchmarking window that uses a furry donut to load and test the GPU</caption>
+      <image>https://hannes.crafti-servi.com/furmark-screenshots/normal.png</image>
     </screenshot>
     <screenshot>
-      <caption>Benchmark results showing the performance of the tested GPU</caption>
-      <image>https://hannes.crafti-servi.com/furmark/benchmark-results.png</image>
+      <caption>Benchmark results for the donut test showing the performance of the tested GPU</caption>
+      <image>https://hannes.crafti-servi.com/furmark-screenshots/normal-benchmark-results.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Benchmarking window that uses a furry knot to load and test the GPU</caption>
+      <image>https://hannes.crafti-servi.com/furmark-screenshots/knot.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Benchmark results for the knot test showing the performance of the tested GPU</caption>
+      <image>https://hannes.crafti-servi.com/furmark-screenshots/knot-benchmark-results.png</image>
     </screenshot>
   </screenshots>
 
