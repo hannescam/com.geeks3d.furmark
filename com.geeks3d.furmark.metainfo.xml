@@ -18,6 +18,7 @@
   <description>
     <p>OpenGL and Vulkan stress-test and benchmark for GPUs, that can upload the results to an online database</p>
     <p>WARNING: This Flatpak wrapper is not affiliated by Geeks3D</p>
+    <p>WARNING:	Could damage your device if not	adequately cooled</p>
     <p>Features</p>
     <ul>
       <li>Benchmarking graphic cards</li>
@@ -30,21 +31,29 @@
   <url type="homepage">https://geeks3d.com/furmark/</url>
   <url type="help">https://www.geeks3d.com/forums/index.php</url>
   <url type="donation">https://www.geeks3d.com/donate/</url>
-  
+
   <launchable type="desktop-id">com.geeks3d.furmark.desktop</launchable>
 
   <screenshots>
     <screenshot type="default">
       <caption>Main window for starting stress-tests and benchmarks</caption>
-      <image>https://hannes.crafti-servi.com/furmark/menu.png</image>
+      <image>https://hannes.crafti-servi.com/furmark-screenshots/main-window.png</image>
     </screenshot>
     <screenshot>
-      <caption>Stress testing window that uses a furry donut to load the GPU</caption>
-      <image>https://hannes.crafti-servi.com/furmark/stress-test.png</image>
+      <caption>Benchmarking window that uses a furry donut to load and test the GPU</caption>
+      <image>https://hannes.crafti-servi.com/furmark-screenshots/normal.png</image>
     </screenshot>
     <screenshot>
-      <caption>Benchmark results showing the performance of the tested GPU</caption>
-      <image>https://hannes.crafti-servi.com/furmark/benchmark-results.png</image>
+      <caption>Benchmark results for the donut test showing the performance of the tested GPU</caption>
+      <image>https://hannes.crafti-servi.com/furmark-screenshots/normal-benchmark-results.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Benchmarking window that uses a furry knot to load and test the GPU</caption>
+      <image>https://hannes.crafti-servi.com/furmark-screenshots/knot.png</image>
+    </screenshot>
+    <screenshot>
+      <caption>Benchmark results for the knot test showing the performance of the tested GPU</caption>
+      <image>https://hannes.crafti-servi.com/furmark-screenshots/knot-benchmark-results.png</image>
     </screenshot>
   </screenshots>
 
@@ -69,6 +78,44 @@
   </content_rating>
   
   <releases>    
+    <release version="2.6.0.0" date="2025-02-21" type="stable">
+      <description>
+        <ul>
+          <li>added commercial names:</li>
+          <li>  . MSI RTX 5070 Ti Ventus 3X OC</li>
+          <li>  . Palit RTX 5070 Ti GameRock OC</li>
+          <li>  . MSI RTX 5070 Ti Gaming Trio OC+</li>
+          <li>  . MSI RTX 5070 Ti Vanguard SOC</li>
+          <li>  . MSI RTX 5070 Ti Gaming Trio OC+</li>
+          <li>  . ASUS RTX 5070 Ti TUF OC</li>
+          <li>  . Palit RTX 5080 GamingPro OC 16GB</li>
+          <li>  . GIGABYTE RX 9070 XT Gaming OC 16G</li>
+          <li>  . GIGABYTE RTX 5090 Gaming OC</li>
+          <li>  . ASUS RTX 5080 ASTRAL OC</li>
+          <li>  . MSI RTX 5080 Vanguard SOC</li>
+          <li>  . GIGABYTE RTX 5080 Gaming OC</li>
+          <li>  . MSI RTX 5080 Suprim SOC</li>
+          <li>  . Zotac RTX 5080 AMP Extreme Infinity</li>
+          <li>  . Palit RTX 5080 GameRock OC</li>
+          <li>  . Gainward RTX 5080 Phoenix GS</li>
+          <li>  . Colorful RTX 5080 Vulcan OC</li>
+          <li>  . ASUS RTX 5090 ASTRAL OC</li>
+          <li>  . NVIDIA GeForce RTX 5090 Founders Edition</li>
+          <li>  . Palit RTX 5090 GameRock</li>
+          <li>  . MSI RTX 5090 Suprim Liquid SOC</li>
+          <li>  . ASRock Arc B570 Challenger OC</li>
+          <li>  . Sparkle Arc B570 Guardian OC</li>
+          <li>GPU monitoring: added support of </li>
+          <li>  . NVIDIA GeForce RTX 5090</li>
+          <li>  . RTX 5090 D, RTX 5080 and RTX 5070 Ti.</li>
+          <li>GUI: added combox for multisample anti-aliasing.</li>
+          <li>updated with GPU-Z 2.63</li>
+          <li>updated with GPU Shark2 2.6.0.0</li>
+          <li>updated with GeeXLab 0.62.0 libs.</li>
+        </ul>
+      </description>
+    </release>
+
     <release version="2.5.0.0" date="2024-12-30" type="stable">
       <description>
         <ul>
