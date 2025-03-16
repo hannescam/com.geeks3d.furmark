@@ -25,7 +25,6 @@
       <li>Stress testing graphic cards to test the reliability of the device or just for fun</li>
       <li>Publishing benchmarking scores</li>
     </ul>
-    <p>The ARM version is still at 2.4.0.0</p>
   </description>
 
   <url type="homepage">https://geeks3d.com/furmark/</url>
@@ -78,6 +77,31 @@
   </content_rating>
   
   <releases>    
+    <release version="2.7.0.0" date="2025-03-12" type="stable">
+      <description>
+        <ul>
+          <li>added support of AMD Radeon RX 9070 XT and RX 9070.</li>
+          <li>added support of NVIDIA GeForce RTX 5070.</li>
+          <li>GUI: added custom resolution.</li>
+          <li>GUI (arm64): improved the reactivity.<li>
+          <li>added displaying of MSAA value in the OSI (On Screen Information).</li>
+          <li>added detection of missing ROPs on NVIDIA Blackwell GPUs.</li>
+          <li>restored VRAM and hotspot temperatures reading on NVIDIA GPUs.</li>
+          <li>Hotspot temperature no longer supported on RTX 50 Series.</li>
+          <li>added commercial name:</li>
+          <li>  . ASUS TUF Gaming RX 9070 OC</li>
+          <li>  . SAPPHIRE Nitro+ RX 9070 XT</li>
+          <li>  . XFX RX 9070 Quicksilver</li>
+          <li>  . GIGABYTE RX 9070 XT Gaming OC</li>
+          <li>  . NVIDIA GeForce RTX 5070 Founders Edition</li>
+          <li>  . Zotac RTX 5090 SOLID</li>
+          <li>updated with GPU-Z 2.64</li>
+          <li>updated with GPU Shark2 2.7.0.0</li>
+          <li>updated with GeeXLab 0.63.0 libs.</li>
+        </ul>
+      </description>
+    </release>
+
     <release version="2.6.0.0" date="2025-02-21" type="stable">
       <description>
         <ul>
