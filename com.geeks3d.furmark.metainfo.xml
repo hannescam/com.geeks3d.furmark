@@ -83,7 +83,7 @@
           <li>added support of AMD Radeon RX 9070 XT and RX 9070.</li>
           <li>added support of NVIDIA GeForce RTX 5070.</li>
           <li>GUI: added custom resolution.</li>
-          <li>GUI (arm64): improved the reactivity.<li>
+          <li>GUI (arm64): improved the reactivity.</li>
           <li>added displaying of MSAA value in the OSI (On Screen Information).</li>
           <li>added detection of missing ROPs on NVIDIA Blackwell GPUs.</li>
           <li>restored VRAM and hotspot temperatures reading on NVIDIA GPUs.</li>
