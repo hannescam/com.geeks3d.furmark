@@ -49,14 +49,16 @@ modules:
     sources:
       - type: archive
         only-arches: [x86_64]
-        url: https://geeks3d.com/downloads/2025/fm2/FurMark_2.6.0.0_linux64.7z
-        sha256: d7c88d080c80f71bd7ff7a03de5b3b9fba97419885ab8ea46f26d8ef0fc7f18f
+        url: https://geeks3d.com/dl/get/797
+        sha256: ab482d58115aa8fb332392102a5ca5af8746ece383cc09f39b90cf5c1a99afad
+        dest-filename: furmark.7z
         dest: furmark
 
       - type: archive
         only-arches: [aarch64]
-        url: https://gpumagick.com/downloads/files/2024/furmark2/FurMark_2.4.0.0_arm64.7z
-        sha256: 6e7a584f279a57a97ae1033fcf2c37543c8a79d40fc5e6df6b9d679f5a7c03da
+        url: https://geeks3d.com/dl/get/798
+        sha256: f2039230cecb46c294ff632cc04a5adaba7fba39f3b6c775b585e268162991a5
+        dest-filename: furmark.7z
         dest: furmark
 
       - type: file
