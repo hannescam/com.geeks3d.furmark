@@ -49,15 +49,15 @@ modules:
     sources:
       - type: archive
         only-arches: [x86_64]
-        url: https://geeks3d.com/dl/get/797
-        sha256: ab482d58115aa8fb332392102a5ca5af8746ece383cc09f39b90cf5c1a99afad
+        url: https://geeks3d.com/dl/get/805
+        sha256: 12ea8b43626ab0ee9b31b69daf782ccaf22b37c83d3499e4e404fae2e1fbb1bc
         dest-filename: furmark.7z
         dest: furmark
 
       - type: archive
         only-arches: [aarch64]
-        url: https://geeks3d.com/dl/get/798
-        sha256: f2039230cecb46c294ff632cc04a5adaba7fba39f3b6c775b585e268162991a5
+        url: https://geeks3d.com/dl/get/806
+        sha256: 39eef070ad6191ec8443fc6e516e88c963470e0a8334cdf75c1a16bc8274ab04
         dest-filename: furmark.7z
         dest: furmark
 
