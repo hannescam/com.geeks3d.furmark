@@ -25,6 +25,7 @@
       <li>Stress testing graphic cards to test the reliability of the device or just for fun</li>
       <li>Publishing benchmarking scores</li>
     </ul>
+    <p>WARNING: The arm version is still 2.8.0
   </description>
 
   <url type="homepage">https://geeks3d.com/furmark/</url>
@@ -77,6 +78,14 @@
   </content_rating>
   
   <releases>    
+    <release version="2.8.1.1" date="2025-05-23" type="stable">
+      <description>
+        <ul>
+	  <li>fixed switch to fullscreen mode on Linux.</li>
+        </ul>
+      </description>
+    </release>
+
     <release version="2.8.0.0" date="2025-05-01" type="stable">
       <description>
         <ul>

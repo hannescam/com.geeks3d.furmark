@@ -39,6 +39,7 @@ modules:
       - ln -s /app/furmark/FurMark_GUI /app/bin/FurMark_GUI
       - ln -s /app/furmark/furmark /app/bin/furmark
       - touch $XDG_DATA_HOME/gui_log.txt $XDG_DATA_HOME/backend_log.txt
+      - rm -f /app/furmark/_geexlab_log.txt /app/furmark/_furmark_log.txt
       - ln -s $XDG_DATA_HOME/gui_log.txt /app/furmark/_geexlab_log.txt
       - ln -s $XDG_DATA_HOME/backend_log.txt /app/furmark/_furmark_log.txt
       - ffmpeg -i furmark-icon.png -vf scale=512:512 furmark-icon-scaled.png
@@ -50,7 +51,7 @@ modules:
       - type: archive
         only-arches: [x86_64]
         url: https://geeks3d.com/dl/get/805
-        sha256: 12ea8b43626ab0ee9b31b69daf782ccaf22b37c83d3499e4e404fae2e1fbb1bc
+        sha256: cc90c4aadcfe5b97bd79ac97d8ed6089c2ddb2831a376affa03d8da4bf20b3a9
         dest-filename: furmark.7z
         dest: furmark
 
