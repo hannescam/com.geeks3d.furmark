@@ -58,7 +58,7 @@ modules:
       - type: archive
         only-arches: [aarch64]
         url: https://www.geeks3d.com/dl/get/819
-        sha256: 3D4037358375783A6F5A3FD81092CB4D6C37DC79D4149DE9797D4F604103F50E
+        sha256: 3d4037358375783a6f5a3fd81092cb4d6c37dc79d4149de9797d4f604103f50e
         dest-filename: furmark.7z
         dest: furmark
 
