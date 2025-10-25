@@ -77,6 +77,41 @@
   </content_rating>
  
   <releases>    
+    <release version="2.10.1.0" date="2025-10-22" type="stable">
+      <description>
+        <ul>
+          <li>fixed bugs in Vulkan plugin</li>
+          <li>updated with GeeXLab 0.66.1 libs.</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="2.10.0.0" date="2025-10-06" type="stable">
+      <description>
+        <ul>
+          <li>added AIB partner models names:</li>
+          <li>  . ASUS RTX 5080 Noctua OC</li>
+          <li>  . MSI RTX 5080 Expert OC</li>
+          <li>  . MSI RTX 5060 Gaming OC</li>
+          <li>  . GIGABYTE RTX 5050 Gaming OC</li>
+          <li>  . Zotac RTX 5070 SOLID</li>
+          <li>added monitoring for Raspberry Pi 5 GPU.</li>
+          <li>added support of AMD Radeon RX 9060, Radeon RX 7700, Radeon RX 7400 and Radeon PRO W7400.</li>
+          <li>added support of NVIDIA GeForce RTX 5090 D v2.</li>
+          <li>added support of Intel Arc Pro B50 / B60.</li>
+          <li>improved monitoring of Intel Arc GPUs on Linux with Xe driver and kernel 6.16+.</li>
+          <li>added PRESET:3440x1440. Command line param is --p3440x1440</li>
+          <li>VRAM test: added 10GB and 32GB options:</li>
+          <li>  . furmark -demo furmark-gl -furmark-vram-test-gb 10</li>
+          <li>  . furmark -demo furmark-gl -furmark-vram-test-gb 32</li>
+          <li>commercial/AIB patner name: removed wrong VRAM value (typo) for ASUS RTX 3080 TUF Gaming OC.</li>
+          <li>updated with GPU-Z 2.68.</li>
+          <li>updated with GPU Shark2 2.10.0.0.</li>
+          <li>updated with GeeXLab 0.66.0 libs.</li>
+        </ul>
+      </description>
+    </release>
+
     <release version="2.9.0.0" date="2025-07-09" type="stable">
       <description>
         <ul>
