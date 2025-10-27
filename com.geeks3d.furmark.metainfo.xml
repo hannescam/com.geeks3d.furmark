@@ -19,6 +19,7 @@
     <p>OpenGL and Vulkan stress-test and benchmark for GPUs, that can upload the results to an online database</p>
     <p>WARNING: This Flatpak wrapper is not affiliated by Geeks3D</p>
     <p>WARNING:	Could damage your device if not	adequately cooled</p>
+    <p>WARNING: The arm version is still 2.10.1.0</p>
     <p>Features</p>
     <ul>
       <li>Benchmarking graphic cards</li>
@@ -77,6 +78,15 @@
   </content_rating>
  
   <releases>    
+    <release version="2.10.2.0" date="2025-10-26" type="stable">
+      <description>
+        <ul>
+          <li>fixed bugs in Vulkan plugin</li>
+          <li>updated with GeeXLab 0.66.1 libs.</li>
+        </ul>
+      </description>
+    </release>
+
     <release version="2.10.1.0" date="2025-10-22" type="stable">
       <description>
         <ul>
