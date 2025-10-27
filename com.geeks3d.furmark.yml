@@ -50,15 +50,15 @@ modules:
     sources:
       - type: archive
         only-arches: [x86_64]
-        url: https://geeks3d.com/dl/get/833
-        sha256: 7032d2d2842af29395df1107ea55802b26d03b01e3dd06853568cce56a81c737
+        url: https://gpumagick.com/downloads/files/2025/fm2/2_10_dbc69dd0a08da5ff09169a4fc759ddaa/FurMark_2.10.2_linux64.7z
+        sha256: b3d0048fdafb90184f18f537eb91e0c52f6d132ae6ed48cbb68c43db5a42aedb
         dest-filename: furmark.7z
         dest: furmark
 
       - type: archive
         only-arches: [aarch64]
-        url: https://www.geeks3d.com/dl/get/834
-        sha256: 224cac49eaad10c30a77eb7f2da0c26dc69f71d4027fa42056ce9ef08a9c9231
+        url: https://gpumagick.com/downloads/files/2025/fm2/2_10_dbc69dd0a08da5ff09169a4fc759ddaa/FurMark_2.10.1_arm64.7z
+        sha256: 5d0b8ae948193a3c2aa443641d562ca221bdcf26406cd8d1fbae618fd76f018f
         dest-filename: furmark.7z
         dest: furmark
 
